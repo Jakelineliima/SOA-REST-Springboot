@@ -31,7 +31,7 @@ public class Aplicacao {
 	public static void main(String[] args) {
 		//SpringApplication.run(App.class, args);
 		HashMap<String, Object> props = new HashMap<>();
-		props.put("server.port", 9000);
+		props.put("server.port", 3001);
 
 		new SpringApplicationBuilder()
 		    .sources(Aplicacao.class)                
