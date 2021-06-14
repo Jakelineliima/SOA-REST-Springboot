@@ -29,7 +29,7 @@ public class Aplicacao {
     private static final Logger log = LoggerFactory.getLogger(Aplicacao.class);	
 
 	public static void main(String[] args) {
-		
+		//SpringApplication.run(App.class, args);
 		HashMap<String, Object> props = new HashMap<>();
 		props.put("server.port", 3001);
 
@@ -81,4 +81,5 @@ public class Aplicacao {
         return factory;
     }
 
+	
 }

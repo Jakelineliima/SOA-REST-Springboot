@@ -17,7 +17,7 @@ public class TokenAuthenticationService {
 	
 	// 10 dias
 	//static final long EXPIRATION_TIME = 860_000_000;
-	static final long EXPIRATION_TIME = 1000 * 60 * 60 * 24;
+	static final long EXPIRATION_TIME = 1000 * 60 * 60 * 7;
 	static final String SECRET = "Secreto";
 	static final String TOKEN_PREFIX = "Bearer";
 	static final String HEADER_STRING = "Authorization";
